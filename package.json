@@ -1,0 +1,11 @@
+{
+  "name": "cypress-login-test-2",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.6",
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}

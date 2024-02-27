@@ -1,0 +1,8 @@
+{
+  "INVALID_USERNAME": "Username and password do not match any user in this service",
+  "NO_USERNAME": "Username is required",
+  "INVALID_PASSWORD": "Username and password do not match any user in this service",
+  "NO_PASSWORD": "Password is required",
+  "LOCKED_OUT": "Sorry, this user has been locked out.",
+  "NOT_LOGGED_IN": "You can only access '$LOCATION' when you are logged in."
+}

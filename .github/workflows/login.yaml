@@ -1,0 +1,16 @@
+name: run cypress tests on push
+
+on: [push]
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: cypress run all
+        uses: cypress-io/github-action@v3
+        with:
+          project: ./
+          browser: chrome
